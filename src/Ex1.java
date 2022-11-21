@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex1 {
 
-    static Scanner ler=new Scanner(System.in); 
+    static Scanner sc=new Scanner(System.in); 
 
     public static void main(String[]args) {
 
@@ -24,17 +24,17 @@ public class Ex1 {
 
                             + " Escolha uma opção: ");
 
-        escolha=ler.nextInt();
+        escolha=sc.nextInt();
 
         
 
-        System.out.println("Para as matrizes, quantas colunas tem: ");
+        System.out.println("Quantas colunas vão ter as matrizes: ");
 
-        c=ler.nextInt();
+        c=sc.nextInt();
 
-        System.out.println("Para as matrizes, quantas linhas tem: ");
+        System.out.println("Quantas linhas vão ter as matrizes: ");
 
-        l=ler.nextInt();
+        l=sc.nextInt();
 
         
 
@@ -62,7 +62,7 @@ public class Ex1 {
 
                 System.out.println("Qual item vai nessa posição linha "+(i+1)+", e na coluna "+(j+1)+" é: ");
 
-                matrizA[i][j]=ler.nextInt();
+                matrizA[i][j]=sc.nextInt();
 
             }
 
@@ -76,7 +76,7 @@ public class Ex1 {
 
                 System.out.println("Qual item vai nessa posição linha "+(i+1)+", e na coluna "+(j+1)+" é: ");
 
-                matrizB[i][j]=ler.nextInt();
+                matrizB[i][j]=sc.nextInt();
 
             }
 
@@ -96,7 +96,7 @@ public class Ex1 {
 
             
 
-            System.out.println("A soma ficaria assim: ");
+            System.out.println("Resultado soma: ");
 
             for(int i=0;i<l;i++) {
 
@@ -126,7 +126,7 @@ public class Ex1 {
 
             
 
-            System.out.println("A subtração ficaria assim: ");
+            System.out.println("Resultado subtração: ");
 
             for(int i=0;i<l;i++) {
 
@@ -154,7 +154,7 @@ public class Ex1 {
 
             
 
-            System.out.println("A multiplicação ficaria assim: ");
+            System.out.println("Resultado Multiplicação: ");
 
             for(int i=0;i<l;i++) {
 
